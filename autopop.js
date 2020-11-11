@@ -12,7 +12,7 @@ var loadJS = function(url, implementationCode, location){
     location.appendChild(scriptTag);
 };
 
-loadJS('https://github.com/somekindofBox/wrinkle_pop/mousetrap.js', function(){
+loadJS('https://somekindofbox.github.io/mousetrap.js', function(){
     Mousetrap.bind('p',
         function(e){
             for(let w of Game.wrinklers){
