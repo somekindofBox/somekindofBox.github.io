@@ -23,7 +23,7 @@ function wrinkler_pop(e){
 function toggle_interval(){
     if(interval === 0){
         interval = setInterval(wrinkler_pop, 15000);
-        Game.PopUp("Interval set (15s)");
+        Game.PopuP("Interval set (15s)");
     } else {
         clearInterval(interval);
         interval = 0;
