@@ -22,8 +22,8 @@ function wrinkler_pop(e){
 
 function toggle_interval(){
     if(interval === 0){
-        interval = setInterval(wrinkler_pop, 15000);
-        Game.Popup("Interval set (15s)");
+        interval = setInterval(wrinkler_pop, 45000);
+        Game.Popup("Interval set (45s)");
     } else {
         clearInterval(interval);
         interval = 0;
@@ -35,3 +35,4 @@ loadJS('https://somekindofbox.github.io/mousetrap.js', function(){
     Mousetrap.bind('s', toggle_interval);
 }, document.body);
 
+// Game.Objects['Wizard tower'].minigame.castSpell( Game.Objects['Wizard tower'].minigame.spells["hand of fate"])
